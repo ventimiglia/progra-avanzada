@@ -1,0 +1,14 @@
+
+public class PonyExpress {
+	public static int jinetes(int[] estaciones) { 
+		
+		return estaciones.length;
+	}
+	
+	public static void main(String[] args) {
+		PonyExpress jinete;
+		
+		System.out.println(jinetes(new int[] {18, 15}));
+	}
+
+}

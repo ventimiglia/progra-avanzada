@@ -1,0 +1,18 @@
+
+
+public class Circulo {
+	
+	private Punto punto;
+	private float radio;
+	
+	public Circulo(Punto _punto, float _radio) {
+		this.punto = _punto;
+		this.radio = _radio;
+	}
+
+	public boolean intersectaCon(Circulo circulo) {
+		return true;
+	}
+
+}
+

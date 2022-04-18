@@ -1,0 +1,26 @@
+
+public class PonyExpress {
+	public static int jinetes(int[] distancias) {
+		int acumulador = 100;
+		int cantidadJinetes = 1;
+		if(distancias.length == 0) {
+			return 0;
+		}
+		for (int distancia : distancias) {
+			if(acumulador < distancia) {
+				cantidadJinetes++;				
+				acumulador = 100 - distancia;
+			} else {
+				acumulador = acumulador - distancia;	
+			}
+		}
+		return cantidadJinetes;
+	}
+	
+	public static void main(String[] args) {
+		PonyExpress jinete;
+		
+		System.out.println(jinetes(new int[] {51,51,51}));
+	}
+
+}

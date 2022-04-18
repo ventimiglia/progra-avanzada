@@ -1,0 +1,15 @@
+
+public class Punto {
+	private float x;
+	private float y;
+	
+	public Punto(float _x, float _y) {
+		this.x = _x;
+		this.y = _y;
+	}	
+
+	public static void main(String[] args) {
+		Punto puntoCero = new Punto(0,0);
+		System.out.println(puntoCero);
+	}
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CirculoTest" project="EJ00-Circulo-interseccion" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="CirculoTest" time="0.014" uniqueid="[engine:junit-jupiter]/[class:CirculoTest]">
+    <testcase name="test_interseccion" classname="CirculoTest" time="0.014" displayname="test_interseccion()" uniqueid="[engine:junit-jupiter]/[class:CirculoTest]/[method:test_interseccion()]"/>
+  </testsuite>
+</testrun>
